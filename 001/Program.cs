@@ -3,7 +3,6 @@
 string? S;
 int A;
 S=Console.ReadLine ();
-
 Console.WriteLine(S);
 A=Convert.ToInt32(S);
 Console.WriteLine(Math.Pow (A,2));
