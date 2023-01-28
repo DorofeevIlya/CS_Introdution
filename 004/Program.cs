@@ -1,10 +1,7 @@
 ﻿// 4. По заданному с клавиатуры номеру дня недели вывести его название
 Console.WriteLine("Введите число от 1 до 7 ");
-string? S;
 int A;
-S=Console.ReadLine ();
-Console.WriteLine(S);
-A=Convert.ToInt32(S);
+A=Convert.ToInt32(Console.ReadLine());
 if (A==1)
 Console.WriteLine("Понедельник");
 if (A==2)
@@ -19,3 +16,5 @@ if (A==6)
 Console.WriteLine("Суббота");
 if (A==7)
 Console.WriteLine("Воскресенье");
+else 
+Console.WriteLine("Введено число вне диапазона");

@@ -1,6 +1,7 @@
 ﻿// 10. Вывести на экран последнюю цифру целого числа введенного с клавиатуры. 
+
 int N,d0;
-Console.WriteLine("Введите число N:");
+Console.Write("Введите число N: ");
 N=Convert.ToInt32(Console.ReadLine());
 d0=N%10;
 if (d0<=0)

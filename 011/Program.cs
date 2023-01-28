@@ -1,8 +1,14 @@
 ﻿// 11. Дано число больше 9. Вывести на экран  вторую цифру числа с конца
 
-int n=184;
-int d0,d1,d2;
-d0=n%10;
-d1=n/10%10;
-d2=n/100;
-System.Console.WriteLine($"{d0} {d1} {d2}");
+int N,d;
+Console.Write("Введите число N: ");
+N=Convert.ToInt32(Console.ReadLine());
+if (N>9)
+{   N=N/10; 
+    d=N%10;
+    System.Console.WriteLine($"Вторая цифра с конца: {d}");
+}
+else 
+ {
+    Console.WriteLine("Введено число меньше 10");
+ }

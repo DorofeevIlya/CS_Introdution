@@ -1,12 +1,15 @@
 ﻿// 7. Выяснить является ли число чётным.
 
-int N2=15;
-bool odd= N2%2==0;
-if (odd)
+int A;
+bool B;
+Console.Write("Введите число A: " );
+A=Convert.ToInt32(Console.ReadLine());
+B=A%2==0;
+if (B==true)
 {
-    System.Console.WriteLine($"Число {N2} четное");
+Console.WriteLine($"Число {A} четное");
 }
 else
 {
-    System.Console.WriteLine($"Число {N2} не четное");
+Console.WriteLine($"Число {A} не четное");
 }
